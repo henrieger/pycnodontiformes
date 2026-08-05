@@ -1,0 +1,6 @@
+nohup.out
+*.png
+*.svg
+*.ckp
+*.ckp~
+.Rhistory

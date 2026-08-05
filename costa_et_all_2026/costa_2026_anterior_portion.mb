@@ -1,0 +1,17 @@
+begin mrbayes;
+	log start filename = costa_2026.log;
+	execute costa_2026_anterior_portion.nex;
+	outgroup Polypterus_senegalus;
+	set autoclose=yes nowarn=yes;
+	taxastat;
+	lset coding=variable rates=invgamma;
+	unlink statefreq=(all) revmat=(all) shape=(all) pinvar=(all); 
+	prset applyto=(all) ratepr=variable;
+	showmodel;
+	mcmcp ngen= 30000000 relburnin=yes burninfrac=0.25 printfreq=1000  samplefreq=1000 nchains=4 savebrlens=yes nruns=4;
+	mcmc;
+	plot;
+	sump;
+	sumt contype=allcompat;
+	log stop;
+end;
