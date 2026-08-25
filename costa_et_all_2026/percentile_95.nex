@@ -1,0 +1,97 @@
+#NEXUS
+[R-package APE, Wed Aug 19 20:16:42 2026]
+
+BEGIN TAXA;
+	DIMENSIONS NTAX = 42;
+	TAXLABELS
+		Huso_huso
+		Polypterus_senegalus
+		Pteronisculus_cicatrosus
+		Abdobalistum_thyrus
+		Nursallia_veronae
+		Paranursallia_gutturosum
+		Pycnodus_apodus
+		Oropycnodus_ponsorti
+		Coelodus_saturnus
+		Sylvienodus_laveirensis
+		Polazzodus_coronatus
+		Scalacurvichthys_naishi
+		Ocloedus_subdiscus
+		Tepexichthys_aranguthyorum
+		Iemanja_palma
+		Stemmatodus_rhombus
+		Proscinetes_radiatus
+		Proscinetes_bernardi
+		Proscinetes_elegans
+		Neoproscinetes_penalvai
+		Thiollierepycnodus_wagneri
+		Turboscinetes_egertoni
+		Turbomesodon_relegans
+		Turbomesodon_bernissartensis
+		Turbomesodon_praeclarus
+		Akromystax_tilmachiton
+		Stenamara_mia
+		Macromesodon_macropterus
+		Brembodus_ridens
+		Gibbodon_cenensis
+		Eomesodon_liassicus
+		Eomesodon_hoeferi
+		Apomesodon_gibbosus
+		Piranhamesodon_pinnatomus
+		Arduafrons_prominoris
+		Gyrodus_hexagonus
+		Mesturus_verrucosus
+		Mesturus_leedsi
+		Palaeobalistum_orbiculatum
+		Micropycnodon_kansasensis
+		Paramesturus_stuehmeri
+		MCSNB_VG04
+	;
+END;
+BEGIN TREES;
+	TRANSLATE
+		1	Huso_huso,
+		2	Polypterus_senegalus,
+		3	Pteronisculus_cicatrosus,
+		4	Abdobalistum_thyrus,
+		5	Nursallia_veronae,
+		6	Paranursallia_gutturosum,
+		7	Pycnodus_apodus,
+		8	Oropycnodus_ponsorti,
+		9	Coelodus_saturnus,
+		10	Sylvienodus_laveirensis,
+		11	Polazzodus_coronatus,
+		12	Scalacurvichthys_naishi,
+		13	Ocloedus_subdiscus,
+		14	Tepexichthys_aranguthyorum,
+		15	Iemanja_palma,
+		16	Stemmatodus_rhombus,
+		17	Proscinetes_radiatus,
+		18	Proscinetes_bernardi,
+		19	Proscinetes_elegans,
+		20	Neoproscinetes_penalvai,
+		21	Thiollierepycnodus_wagneri,
+		22	Turboscinetes_egertoni,
+		23	Turbomesodon_relegans,
+		24	Turbomesodon_bernissartensis,
+		25	Turbomesodon_praeclarus,
+		26	Akromystax_tilmachiton,
+		27	Stenamara_mia,
+		28	Macromesodon_macropterus,
+		29	Brembodus_ridens,
+		30	Gibbodon_cenensis,
+		31	Eomesodon_liassicus,
+		32	Eomesodon_hoeferi,
+		33	Apomesodon_gibbosus,
+		34	Piranhamesodon_pinnatomus,
+		35	Arduafrons_prominoris,
+		36	Gyrodus_hexagonus,
+		37	Mesturus_verrucosus,
+		38	Mesturus_leedsi,
+		39	Palaeobalistum_orbiculatum,
+		40	Micropycnodon_kansasensis,
+		41	Paramesturus_stuehmeri,
+		42	MCSNB_VG04
+	;
+	TREE * gen.26580000 = [&U] ((3:0.05024053,1:0.2506337):0.1226256,(42:0.2038091,((40:0.1311743,((37:0.03910599,38:0.08258444):0.1330373,(36:0.05992,(((34:0.1943518,33:0.1316399):0.04345049,(((((25:0.02020759,(((14:0.152279,(13:0.04554015,(16:0.1241768,((((10:0.2120466,11:0.02137411):0.1961624,((8:0.1387368,(((6:0.01834741,4:0.462069):0.04991185,5:0.06181697):0.3266277,7:0.02049452):0.1299788):0.1865313,9:0.1882128):0.04266184):0.02134804,(12:0.05958649,15:0.239936):0.06771852):0.2590294,26:0.4476884):0.06356691):0.04825131):0.1611474):0.1647359,((17:0.1123595,39:0.1970135):0.01367455,((((18:0.0585741,19:0.01311928):0.08561474,21:0.4224474):0.02373133,20:0.1348397):0.1160178,22:0.1974086):0.07630845):0.03890739):0.1987972,23:0.09371144):0.09684075):0.03515004,24:0.01584106):0.1389869,27:0.2153059):0.2850175,28:0.1534445):0.05562151,((29:0.08452749,30:0.3993941):0.2453025,(32:0.2295802,31:0.03203036):0.02048566):0.09700435):0.1118024):0.198864,35:0.08673424):0.1408945):0.1097669):0.04666487):0.3527939,41:0.006693909):0.2572548):0.7334594,2:0.04808963);
+END;
