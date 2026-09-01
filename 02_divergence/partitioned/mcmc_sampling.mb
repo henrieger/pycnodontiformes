@@ -1,0 +1,117 @@
+begin mrbayes;
+[Script documentation carried out using comments]
+
+[log the analysis]
+log start filename=mcmc_sampling.log;
+
+[read the matrix concatenated.nexus]
+execute alignment_and_trees.nex;
+
+[close analysis at end]
+set autoclose=yes;
+
+[This command shows the status of all the taxa, according to the documentation]
+taxastat;
+
+[definition of individual partitions per marker come from partitions.txt]
+charset morphGEN=1-7;
+charset morphSKULL=8-23;
+charset morphTEETH=24-44;
+charset morphAX=45-52;
+charset morphCAU=53-60;
+charset morphFIN=61-75;
+charset morphSC=76-86;
+charset morphCSC=87-101;
+charset morphCLO=102-106;
+partition combined=9: morphGEN, morphSKULL, morphTEETH, morphAX, morphCAU, morphFIN, morphSC, morphCSC, morphCLO;
+
+[specification of substitution models]
+set partition=combined;
+lset applyto=(all) coding=variable rates=invgamma; [Mkv+I+G, nstates is automatic for the standard datatype]
+
+[set tip calibrations]
+calibrate
+  Abdobalistum_thyrus=uniform(48.07,56) [Poyato-Ariza & Wenz, 2002]
+  Akromystax_tilmachiton=uniform(93.9,100.5) [Poyato-Ariza & Wenz, 2005]
+  Apomesodon_gibbosus=uniform(145.06,149.2) [Poyato-Ariza & Wenz, 2002]
+  Arduafrons_prominoris=uniform(145.06,149.2) [Poyato-Ariza & Wenz, 2002]
+  Brembodus_ridens=uniform(211.18,215.38) [Tintori, 1981]
+  Coelodus_saturnus=uniform(83.6,100.5) [Kner, 1863; Gorjanović-Kramberger, 1895; Poyato-Ariza & Wenz, 2002]
+  Eomesodon_hoeferi=uniform(211.18,215.38) [Gorjanović-Kramberger, 1905; Hornung et al., 2019]
+  Eomesodon_liassicus=uniform(192.9,201.4) [Woodward, 1895; Delsate et al., 2002]
+  Gibbodon_cenensis=uniform(211.18,215.38) [Tintori, 1981]
+  [Gyrodus_hexagonus=uniform()] [TODO: find Gyrodus dates]
+  [Huso_huso=uniform()] [TODO: find Huso dates]
+  Iemanja_palma=uniform(113.2,119.57) [Wenz 1989]
+  [MCSNB_VG04=uniform()] [TODO: find Val Garda dates]
+  Macromesodon_macropterus=uniform(137.05,143.1) [Poyato-Ariza & Wenz, 2002]
+  [Mesturus_leedsi=uniform()] [TODO: find Val Garda dates]
+  Mesturus_verrucosus=uniform(145.06,149.2) [Poyato-Ariza & Wenz, 2002]
+  Micropycnodon_kansasensis=uniform(85.7,100.5) [Shimada et al., 2006; Shimada & Martin, 2008; Spielmann et al., 2009; Nagrodski et al., 2012; Bice & Shimada, 2016; Maisch et al., 2021];
+  Neoproscinetes_penalvai=uniform(110.1,121.4) [De Figueiredo & Silva Santos, 1991; Cavalcanti Duque & Franca Barreto, 2018]
+  Nursallia_veronae=uniform(48.07,56) [Poyato-Ariza & Wenz, 2002; Bannikov, 2014]
+  Ocloedus_subdiscus=uniform(121.4,125.77) [Wenz and Poyato-Ariza, 1994]
+  Oropycnodus_ponsorti=uniform(66,72.2) [Brignon 2017]
+  Palaeobalistum_orbiculatum=uniform(48.07,56) [Poyato-Ariza and Wenz, 2002; Bannikov, 2014]
+  Paramesturus_stuehmeri=uniform(119.57,121.4) [Taverne, 1981]
+  Paranursallia_gutturosum=uniform(89.8,100.5) [Amalfitano et al., 2020; Vullo et al., 2021]
+  [Piranhamesodon_pinnatomus=uniform()] [TODO: find Piranhamesodon dates]
+  Polazzodus_coronatus=uniform(83.6,89.8) [Poyato-Ariza, 2010; Dalla Vecchia and Cau, 2011]
+  [Polypterus_senegalus=uniform()] [TODO: find Polypterus dates]
+  Proscinetes_bernardi=uniform(100.5,152.21) [Bauzá Rullán and Gómez Pallerola, 1982; Poyato-Ariza and Wenz, 2002; Ebert et al., 2015]
+  Proscinetes_elegans=uniform(145.06,149.2) [Poyato-Ariza and Wenz, 2002; Ebert et al., 2015]
+  Proscinetes_radiatus=uniform(119.57,125.77) [du Pauw, 1902]
+  [Pteronisculus_cicatrosus=uniform()] [TODO: find Pteronisculus dates]
+  Pycnodus_apodus=uniform(48.07,56) [Bannikov, 2014]
+  Scalacurvichthys_naishi=uniform(93.9,100.5) [Cawley & Kriwet, 2018]
+  Stemmatodus_rhombus=uniform(121.4,125.77) [Taverne et al., 2019]
+  Stenamara_mia=uniform(121.4,125.77) [Poyato-Ariza & Wenz, 2002]
+  [Sylvienodus_laveirensis=uniform()] [TODO: find Sylvienodus dates]
+  Tepexichthys_aranguthyorum=uniform(100.5,110.1) [Applegate, 1992]
+  Thiollierepycnodus_wagneri=uniform(149.2,152.21) [Poyato-Ariza & Wenz, 2002; "Proscinetes wagneri"]
+  [Turbomesodon_bernissartensis=uniform()] [TODO: find Turbomesodon bernissartensis dates]
+  Turbomesodon_praeclarus=uniform(121.4,125.77) [Poyato-Ariza & Wenz, 2004; species not accepted in PBDB]
+  Turbomesodon_relegans=uniform=(145.06,149.2) [Poyato-Ariza & Wenz, 2004]
+  [Turboscinetes_egertoni=uniform()] [TODO: find Turboscinetes dates]
+;
+
+[setting up the fbd divtime analysis]
+prset
+  brlenspr=clock:fossilization [because we have fossil tips, otherwise it would be birthdeath]
+  topologypr=fixed(tree1) [fix the tree to the rooted one we want to test on]
+  treeagepr=uniform(215.38,252) [From Brembodus to the beginning of the Triassic. TODO: justify the tree age prior better]
+  sampleprob=0
+  samplestrat=random [random is the default but I'm including it to comment that this allows for sampled ancestors to be recovered]
+  nodeagepr=calibrated
+  speciationpr = uniform(0,10) [TODO: justify the speciation priors]
+  extinctionpr = beta(1,1) [flat, extinction is relative to speciation thus between 0-1]
+  fossilizationpr = beta(1,1) [flat, sampling is psi/(mu+psi), 0-1 ]
+;
+
+[define a clock for each partition but with the same priors]
+prset applyto=(all)
+  clockvarpr=igr
+  igrvarpr=exp(2) [exp(2) seems to be working just fine again]
+  clockrate=exp(5) [exp(5) seems to be working just fine again]
+;
+
+[show the model just specified for each partition]
+showmodel;
+
+[set up the MCMC]
+[sample from prior, data=no]
+mcmcp data=no nruns=1 temp=0.001 ngen=10000000 nchains=8 samplefreq=1000 printfreq=10000;
+
+[run mcmc sampling]
+mcmc;
+
+[summarize the posterior trees]
+sumt nruns=1 relburnin=yes burninfrac=0.1;
+plot;
+
+
+[summarize parameter posteriors]
+sump;
+log stop;
+
+quit;
