@@ -3,7 +3,7 @@ library(ape)
 tree <- read.nexus("maxcredtree.tre")
 tree$tip.label
 
-rooted.tree <- root(tree, outgroup=27, resolve.root=TRUE)
+rooted.tree <- root(tree, outgroup=26, resolve.root=TRUE)
 rooted.tree$edge
 rooted.tree$edge.length
 
