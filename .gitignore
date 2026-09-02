@@ -1,6 +1,7 @@
 nohup.out
 *.png
 *.svg
+!final.svg
 *.ckp
 *.ckp~
 .Rhistory
