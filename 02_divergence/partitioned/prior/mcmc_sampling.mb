@@ -19,10 +19,10 @@ charset morphSKULL=8-23;
 charset morphTEETH=24-44;
 charset morphAX=45-52;
 charset morphCAU=53-60;
-charset morphFIN=61-75;
-charset morphSC=76-86;
-charset morphCSC=87-101;
-charset morphCLO=102-106;
+charset morphFIN=61-76;
+charset morphSC=77-87;
+charset morphCSC=88-102;
+charset morphCLO=103-107;
 partition combined=9: morphGEN, morphSKULL, morphTEETH, morphAX, morphCAU, morphFIN, morphSC, morphCSC, morphCLO;
 
 [specification of substitution models]
@@ -45,7 +45,7 @@ calibrate
   Iemanja_palma = uniform(113.2, 119.57)  [Wenz 1989]
   Valgarzaella_antiquissima = uniform(215.38, 227.3)  [Capasso et al., 2026]
   Macromesodon_macropterus = uniform(137.05, 143.1)   [Poyato-Ariza & Wenz, 2002]
-  Mesturus_leedsi = uniform(159, 165.3)   [Poyato-Ariza & Wenz, 2002; Location 77130 PBDB - Delair, 1988]
+  Aminiichthys_leedsi = uniform(159, 165.3)   [Poyato-Ariza & Wenz, 2002; Location 77130 PBDB - Delair, 1988]
   Mesturus_verrucosus = uniform(145.06, 149.2)  [Poyato-Ariza & Wenz, 2002]
   Micropycnodon_kansasensis = uniform(85.7, 100.5)  [Shimada et al., 2006; Shimada & Martin, 2008; Spielmann et al., 2009; Nagrodski et al., 2012; Bice & Shimada, 2016; Maisch et al., 2021]
   Neoproscinetes_penalvai = uniform(110.1, 121.4)   [De Figueiredo & Silva Santos, 1991; Cavalcanti Duque & Franca Barreto, 2018]

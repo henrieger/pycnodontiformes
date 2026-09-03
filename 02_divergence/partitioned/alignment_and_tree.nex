@@ -1,101 +1,452 @@
 #NEXUS
 
 BEGIN DATA;
-	DIMENSIONS  NTAX=42 NCHAR=106;
-	FORMAT DATATYPE = STANDARD GAP = - MISSING = ? SYMBOLS = "  0 1 2 3 4 5 6 7 8 9";
+	DIMENSIONS  NTAX=42 NCHAR=107;
+	FORMAT DATATYPE = STANDARD INTERLEAVE GAP = - MISSING = ? SYMBOLS = "  0 1 2 3 4 5 6 7 8 9";
 	MATRIX
-	Huso_huso                     00000000000000?0--2--2(1 3)-----0000001-0000000000000000-------00120002100000005001000200330222222000000100000
-	Polypterus_senegalus          0000000000200000--01004000000000000000000000020000001------00100013003001200000000200200000000000000000000
-	Pteronisculus_cicatrosus      00000000000000000000000----000000000000000000000?000?------00210001000000000000000000000000000?00000000000
-	Abdobalistum_thyrus           2101001120011?013???12?1102?312?????2223??2211123200?????0?03025011540??12051110?01003221122213111111????0
-	Nursallia_veronae             2201000130011?0?????12?1102?21223114?22?3?11222??30?2?2??0103025002541??5201101000100?2322111?412???04??10
-	Paranursallia_gutturosum      22010001300?1001302212?110212123411422233211222233002?2??01030150025?0??520510100010032012????311?2305???0
-	Pycnodus_apodus               1101000121011001302312212022212331142223421122123300122111103004011442104205201000100321321111412323054410
-	Oropycnodus_ponsorti          22010011210111112?2322?1202?312?41142223222122123100111121003014042532104205201000100321321111412333053321
-	Coelodus_saturnus             12010001??01??0???2??2?120??312321??52234?1221022100?111200131150024?2114205201000?0032?231111??????0????0
-	Sylvienodus_laveirensis       1001100120011111??2322?12036312???14?2???23132022100211010003122?0033310220520100010032022????311333054310
-	Polazzodus_coronatus          100100012001101???2322?12036512341142223(2 3)2222102310011101?0031240024?2102205201000100310221111311323054310
-	Scalacurvichthys_naishi       1101000120011011??22?2?1202?312??1142223?22120022100??????10302??01???0012052010001003?0??1111?113230???00
-	Ocloedus_subdiscus            220110112101110121231221202?312321142223322220022100211020003023102323??4204201000100210223333311333054300
-	Tepexichthys_aranguthyorum    220110112101110121221231202221232114222333312002210021111000301?002?32?12204201000000?10211111211233043400
-	Iemanja_palma                 1101011120011?012?2212?1???4413311??32111221213321001?1120003?230?2432??12042010001000?0?1?????1????0????0
-	Stemmatodus_rhombus           1100001120011?01212312212023212331142223423120023100210000003022102323101205201000100310214333411333054500
-	Proscinetes_radiatus          22011011200111012?2312?1202??12?????2223??11200221002020100030231023?2???2042010000000?0?(2 3)2222312223053300
-	Proscinetes_bernardi          120110012001110121221231202231223214222332110102210021102000301410(1 2)422112114201000000020131111112111053300
-	Proscinetes_elegans           220110(0 1)1200111012122123120223122321322233211110221002110200030141?1422112104201000000020131111(2 3)12111053300
-	Neoproscinetes_penalvai       2101101120011101212212?12022312232132223231121122100211020003013102322112214201000000220232???212111053300
-	Thiollierepycnodus_wagneri    220111112001110121221231212521242?12?23?43211002211021102000322310142211421210100000002013111111111101??00
-	Turboscinetes_egertoni        2201101120011101212212112012312331132223?212200221003000100030231023331041042010000002201(1 3)11112121110(4 5)3(3 4)00
-	Turbomesodon_relegans         220010112001110121221231202241233114222322122002210030000000302(2 3)1223230042042010000000201(2 3)4323211333033300
-	Turbomesodon_bernissartensis  2101101120011?0?????12?1202?312?3?1?22232?222002?10030000000?1221322230012042010000002?0??4?2331122303???0
-	Turbomesodon_praeclarus       2101101120011101212212?12022312?31142223232210022100300000003022032223001204201000000210124323211233033400
-	Akromystax_tilmachiton        210102112101100???2322?0305?6122?113622??22122022100212130003014042422104203201000100110213233421243052300
-	Stenamara_mia                 3111101120011?012???1??1?????12?????222232?1200221003????00032421?122300?204?01000?00?10213233211??3044400
-	Macromesodon_macropterus      211110112000100112211121102141232113522342222004?10030000000323(1 2)040(1 2)23001200201000210010214222211223021100
-	Brembodus_ridens              2121001110001?0121211131101?312331122225321122041101200000003122140213001000101001211110214222211???051100
-	Gibbodon_cenensis             212100010000110000?1111?111?312?3111?2????21??????0??????00?312001000300300000100121011021322221122?031100
-	Eomesodon_liassicus           212101111000110121211?2110???12????422???221200?11013?0?0000?031??012300??00201000210110?142221111??04???0
-	Eomesodon_hoeferi             1111011110?01?00?12111?1011?2123???12225?111200??10?3?0?0000?1110401?3001001101?002101102?3222?1122304??00
-	Apomesodon_gibbosus           (2 3)1(1 2)111112010100121211121102?212321122?254221000111013000000030220302130012011010012101101122221112230(2 3)1100
-	Piranhamesodon_pinnatomus     21111010201010002121111100??3223?1?22323?22110041101300000003232042212004202101001210110112223111223031100
-	Arduafrons_prominoris         21(1 2)1010120?01001101111?10021312?212222??4111100011002????0002032010302003200011011210110114222111222011100
-	Gyrodus_hexagonus             20010001100010001011112100212123212222243233?00411001????0003222000332??0200001001200(0 1)10114222111222011100
-	Mesturus_verrucosus           20010001200020001011111100242123212132254242?00???00?????0002?22012201?01200011111200120113222111222000000
-	Mesturus_leedsi               200101012010200010111111001?2123212232254242?00???00?????00?2?2?012?01?01200011111200120113222111222000000
-	Palaeobalistum_orbiculatum    10000001210?11?12??312??????212?31??22234?11??????0??11?2000302???2??111420011100020012012222121122?0????0
-	Micropycnodon_kansasensis     ?????0?12000200?10?111?1???4312341??22242332??????0??????00???????????????00?0100?2??120????2???12220?????
-	Paramesturus_stuehmeri        ????00?0200020000??????100???12?2?22?2????????????0??????00???????????????0??010??2??100????????1???0?????
-	Valgarzaella_antiquissima     1000010010?0??0000???0?100??211111?232111?11??????0??????00???????0?030?100000000?2001?????????1????????00
+[General Morphology 1-7]
+	Huso_huso                     0000000
+	Polypterus_senegalus          0000000
+	Pteronisculus_cicatrosus      0000000
+	Abdobalistum_thyrus           2101001
+	Nursallia_veronae             2201000
+	Paranursallia_gutturosum      2201000
+	Pycnodus_apodus               1101000
+	Oropycnodus_ponsorti          2201001
+	Coelodus_saturnus             1201000
+	Sylvienodus_laveirensis       1001100
+	Polazzodus_coronatus          1001000
+	Scalacurvichthys_naishi       1101000
+	Ocloedus_subdiscus            2201101
+	Tepexichthys_aranguthyorum    2201101
+	Iemanja_palma                 1101011
+	Stemmatodus_rhombus           1100001
+	Proscinetes_radiatus          2201101
+	Proscinetes_bernardi          1201100
+	Proscinetes_elegans           220110(0 1)
+	Neoproscinetes_penalvai       2101101
+	Thiollierepycnodus_wagneri    2201111
+	Turboscinetes_egertoni        2201101
+	Turbomesodon_relegans         2200101
+	Turbomesodon_bernissartensis  2101101
+	Turbomesodon_praeclarus       2101101
+	Akromystax_tilmachiton        2101021
+	Stenamara_mia                 3111101
+	Macromesodon_macropterus      2111101
+	Brembodus_ridens              2121001
+	Gibbodon_cenensis             2121000
+	Eomesodon_liassicus           2121011
+	Eomesodon_hoeferi             1111011
+	Apomesodon_gibbosus           (2 3)1(1 2)1111
+	Piranhamesodon_pinnatomus     2111101
+	Arduafrons_prominoris         21(1 2)1010
+	Gyrodus_hexagonus             2001000
+	Mesturus_verrucosus           1001000
+	Aminiichthys_leedsi           ?001010
+	Palaeobalistum_orbiculatum    1100000
+	Micropycnodon_kansasensis     ?????0?
+	Paramesturus_stuehmeri        ????00?
+	Valgarzaella_antiquissima     1100010
 
+[Head 8-23]
+	Huso_huso                     0000000?0--2--2(1 3)
+	Polypterus_senegalus          000200000--01004
+	Pteronisculus_cicatrosus      0000000000000000
+	Abdobalistum_thyrus           120011?013???12?
+	Nursallia_veronae             130011?0?????12?
+	Paranursallia_gutturosum      1300?1001302212?
+	Pycnodus_apodus               1210110013023122
+	Oropycnodus_ponsorti          1210111112?2322?
+	Coelodus_saturnus             1??01??0???2??2?
+	Sylvienodus_laveirensis       120011111??2322?
+	Polazzodus_coronatus          12001101???2322?
+	Scalacurvichthys_naishi       120011011??22?2?
+	Ocloedus_subdiscus            1210111012123122
+	Tepexichthys_aranguthyorum    1210111012122123
+	Iemanja_palma                 120011?012?2212?
+	Stemmatodus_rhombus           120011?012123122
+	Proscinetes_radiatus          1200111012?2312?
+	Proscinetes_bernardi          1200111012122123
+	Proscinetes_elegans           1200111012122123
+	Neoproscinetes_penalvai       120011101212212?
+	Thiollierepycnodus_wagneri    1200111012122123
+	Turboscinetes_egertoni        1200111012122121
+	Turbomesodon_relegans         1200111012122123
+	Turbomesodon_bernissartensis  120011?0?????12?
+	Turbomesodon_praeclarus       120011101212212?
+	Akromystax_tilmachiton        12101100???2322?
+	Stenamara_mia                 120011?012???1??
+	Macromesodon_macropterus      1200010011221112
+	Brembodus_ridens              110001?012121113
+	Gibbodon_cenensis             10000110000?1111
+	Eomesodon_liassicus           11000110121211?2
+	Eomesodon_hoeferi             110?01?00?12111?
+	Apomesodon_gibbosus           1201010012121112
+	Piranhamesodon_pinnatomus     0201010002121111
+	Arduafrons_prominoris         120?01001101111?
+	Gyrodus_hexagonus             1100010001011112
+	Mesturus_verrucosus           1201020001011111
+	Aminiichthys_leedsi           1201020001011111
+	Palaeobalistum_orbiculatum    1210?11?12??312?
+	Micropycnodon_kansasensis     12000200?10?111?
+	Paramesturus_stuehmeri        0200020000??????
+	Valgarzaella_antiquissima     010?0??0000???0?
+
+[Teeth 24-44]
+	Huso_huso                     -----0000001-00000000
+	Polypterus_senegalus          000000000000000000000
+	Pteronisculus_cicatrosus      ----00000000000000000
+	Abdobalistum_thyrus           1102?312?????2223??22
+	Nursallia_veronae             1102?21223114?22?3?11
+	Paranursallia_gutturosum      110212123411422233211
+	Pycnodus_apodus               120222123311422234211
+	Oropycnodus_ponsorti          1202?312?411422232221
+	Coelodus_saturnus             120??312321??52234?12
+	Sylvienodus_laveirensis       12036312???14?2???231
+	Polazzodus_coronatus          12036512341142223(2 3)222
+	Scalacurvichthys_naishi       1202?312??1142223?221
+	Ocloedus_subdiscus            1202?3123211422233222
+	Tepexichthys_aranguthyorum    120222123211422233331
+	Iemanja_palma                 1???4413311??32111221
+	Stemmatodus_rhombus           120232123311422234231
+	Proscinetes_radiatus          1202??12?????2223??11
+	Proscinetes_bernardi          120223122321422233211
+	Proscinetes_elegans           120223122321322233211
+	Neoproscinetes_penalvai       120223122321322232311
+	Thiollierepycnodus_wagneri    1212521242?12?23?4321
+	Turboscinetes_egertoni        12012312331132223?212
+	Turbomesodon_relegans         120224123311422232212
+	Turbomesodon_bernissartensis  1202?312?3?1?22232?22
+	Turbomesodon_praeclarus       12022312?311422232322
+	Akromystax_tilmachiton        0305?6122?113622??221
+	Stenamara_mia                 1?????12?????222232?1
+	Macromesodon_macropterus      110214123211352234222
+	Brembodus_ridens              1101?3123311222253211
+	Gibbodon_cenensis             ?111?312?3111?2????21
+	Eomesodon_liassicus           110???12????422???221
+	Eomesodon_hoeferi             1011?2123???12225?111
+	Apomesodon_gibbosus           1102?212321122?254221
+	Piranhamesodon_pinnatomus     100??3223?1?22323?221
+	Arduafrons_prominoris         10021312?212222??4111
+	Gyrodus_hexagonus             100212123212222243233
+	Mesturus_verrucosus           100212123212132254241
+	Aminiichthys_leedsi           100112123212?32254242
+	Palaeobalistum_orbiculatum    ?????212?31??22234?11
+	Micropycnodon_kansasensis     1???4312341??22242332
+	Paramesturus_stuehmeri        100???12?2?22?2??????
+	Valgarzaella_antiquissima     100??211111?232111?11
+
+[Axial 45-52]
+	Huso_huso                     00000000
+	Polypterus_senegalus          02000000
+	Pteronisculus_cicatrosus      0000?000
+	Abdobalistum_thyrus           11123200
+	Nursallia_veronae             222??30?
+	Paranursallia_gutturosum      22223300
+	Pycnodus_apodus               22123300
+	Oropycnodus_ponsorti          22123100
+	Coelodus_saturnus             21022100
+	Sylvienodus_laveirensis       32022100
+	Polazzodus_coronatus          21023100
+	Scalacurvichthys_naishi       20022100
+	Ocloedus_subdiscus            20022100
+	Tepexichthys_aranguthyorum    20022100
+	Iemanja_palma                 21332100
+	Stemmatodus_rhombus           20023100
+	Proscinetes_radiatus          20022100
+	Proscinetes_bernardi          01022100
+	Proscinetes_elegans           11022100
+	Neoproscinetes_penalvai       21122100
+	Thiollierepycnodus_wagneri    10022110
+	Turboscinetes_egertoni        20022100
+	Turbomesodon_relegans         20022100
+	Turbomesodon_bernissartensis  2002?100
+	Turbomesodon_praeclarus       10022100
+	Akromystax_tilmachiton        22022100
+	Stenamara_mia                 20022100
+	Macromesodon_macropterus      2004?100
+	Brembodus_ridens              22041101
+	Gibbodon_cenensis             ??????0?
+	Eomesodon_liassicus           200?1101
+	Eomesodon_hoeferi             200??10?
+	Apomesodon_gibbosus           00011101
+	Piranhamesodon_pinnatomus     10041101
+	Arduafrons_prominoris         10001100
+	Gyrodus_hexagonus             ?0041100
+	Mesturus_verrucosus           ?00???01
+	Aminiichthys_leedsi           ?00???01
+	Palaeobalistum_orbiculatum    ??????0?
+	Micropycnodon_kansasensis     ??????0?
+	Paramesturus_stuehmeri        ??????0?
+	Valgarzaella_antiquissima     ??????0?
+
+[Caudal 53-60]
+	Huso_huso                     -------0
+	Polypterus_senegalus          1------0
+	Pteronisculus_cicatrosus      ?------0
+	Abdobalistum_thyrus           ?????0?0
+	Nursallia_veronae             2?2??010
+	Paranursallia_gutturosum      2?2??010
+	Pycnodus_apodus               12212110
+	Oropycnodus_ponsorti          11112100
+	Coelodus_saturnus             ?1112101
+	Sylvienodus_laveirensis       21201100
+	Polazzodus_coronatus          11201?00
+	Scalacurvichthys_naishi       ??????10
+	Ocloedus_subdiscus            21202000
+	Tepexichthys_aranguthyorum    21111000
+	Iemanja_palma                 1?112100
+	Stemmatodus_rhombus           21000000
+	Proscinetes_radiatus          20201000
+	Proscinetes_bernardi          21202000
+	Proscinetes_elegans           21202000
+	Neoproscinetes_penalvai       21202000
+	Thiollierepycnodus_wagneri    21102000
+	Turboscinetes_egertoni        30001000
+	Turbomesodon_relegans         30000000
+	Turbomesodon_bernissartensis  30000000
+	Turbomesodon_praeclarus       30000000
+	Akromystax_tilmachiton        21313000
+	Stenamara_mia                 3????000
+	Macromesodon_macropterus      30000000
+	Brembodus_ridens              20000000
+	Gibbodon_cenensis             ?????00?
+	Eomesodon_liassicus           3?0?0000
+	Eomesodon_hoeferi             3?0?0000
+	Apomesodon_gibbosus           30000000
+	Piranhamesodon_pinnatomus     30000000
+	Arduafrons_prominoris         2????000
+	Gyrodus_hexagonus             1????000
+	Mesturus_verrucosus           ?????000
+	Aminiichthys_leedsi           ?????00?
+	Palaeobalistum_orbiculatum    ?11?2100
+	Micropycnodon_kansasensis     ?????00?
+	Paramesturus_stuehmeri        ?????00?
+	Valgarzaella_antiquissima     ?????00?
+
+[Fins and Girdles 61-76]
+	Huso_huso                     0120002100000000
+	Polypterus_senegalus          0100013003001202
+	Pteronisculus_cicatrosus      0210001000000000
+	Abdobalistum_thyrus           3025011540??1202
+	Nursallia_veronae             3025002541??5202
+	Paranursallia_gutturosum      30150025?0??5202
+	Pycnodus_apodus               3004011442104202
+	Oropycnodus_ponsorti          3014042532104202
+	Coelodus_saturnus             31150024?2114202
+	Sylvienodus_laveirensis       3122?00333102202
+	Polazzodus_coronatus          31240024?2102202
+	Scalacurvichthys_naishi       302??01???001202
+	Ocloedus_subdiscus            3023102323??4202
+	Tepexichthys_aranguthyorum    301?002?32?12202
+	Iemanja_palma                 3?230?2432??1202
+	Stemmatodus_rhombus           3022102323101202
+	Proscinetes_radiatus          30231023?2???202
+	Proscinetes_bernardi          301410(1 2)422112111
+	Proscinetes_elegans           30141?1422112101
+	Neoproscinetes_penalvai       3013102322112212
+	Thiollierepycnodus_wagneri    3223101422114212
+	Turboscinetes_egertoni        3023102333104101
+	Turbomesodon_relegans         302(2 3)122323004202
+	Turbomesodon_bernissartensis  ?122132223001202
+	Turbomesodon_praeclarus       3022032223001202
+	Akromystax_tilmachiton        3014042422104202
+	Stenamara_mia                 32421?122300?202
+	Macromesodon_macropterus      323(1 2)040(1 2)23001202
+	Brembodus_ridens              3122140213001000
+	Gibbodon_cenensis             312001000300300?
+	Eomesodon_liassicus           ?031??012300??0?
+	Eomesodon_hoeferi             ?1110401?3001000
+	Apomesodon_gibbosus           3022030213001202
+	Piranhamesodon_pinnatomus     3232042212004202
+	Arduafrons_prominoris         2032010302003202
+	Gyrodus_hexagonus             3222000332??0202
+	Mesturus_verrucosus           2?22032200?01202
+	Aminiichthys_leedsi           2???0????0?01202
+	Palaeobalistum_orbiculatum    302???2??1114202
+	Micropycnodon_kansasensis     ??????????????0?
+	Paramesturus_stuehmeri        ??????????????0?
+	Valgarzaella_antiquissima     ??????0?030?1000
+
+[Scales 77-87]
+	Huso_huso                     50010002003
+	Polypterus_senegalus          00000002002
+	Pteronisculus_cicatrosus      00000000000
+	Abdobalistum_thyrus           51110?01003
+	Nursallia_veronae             1101000100?
+	Paranursallia_gutturosum      51010001003
+	Pycnodus_apodus               52010001003
+	Oropycnodus_ponsorti          52010001003
+	Coelodus_saturnus             5201000?003
+	Sylvienodus_laveirensis       52010001003
+	Polazzodus_coronatus          52010001003
+	Scalacurvichthys_naishi       52010001003
+	Ocloedus_subdiscus            42010001002
+	Tepexichthys_aranguthyorum    4201000000?
+	Iemanja_palma                 42010001000
+	Stemmatodus_rhombus           52010001003
+	Proscinetes_radiatus          42010000000
+	Proscinetes_bernardi          42010000000
+	Proscinetes_elegans           42010000000
+	Neoproscinetes_penalvai       42010000002
+	Thiollierepycnodus_wagneri    21010000000
+	Turboscinetes_egertoni        42010000002
+	Turbomesodon_relegans         42010000000
+	Turbomesodon_bernissartensis  42010000002
+	Turbomesodon_praeclarus       42010000002
+	Akromystax_tilmachiton        32010001001
+	Stenamara_mia                 4?01000?00?
+	Macromesodon_macropterus      02010002100
+	Brembodus_ridens              01010012111
+	Gibbodon_cenensis             00010012101
+	Eomesodon_liassicus           02010002101
+	Eomesodon_hoeferi             1101?002101
+	Apomesodon_gibbosus           11010012101
+	Piranhamesodon_pinnatomus     21010012101
+	Arduafrons_prominoris         00110112101
+	Gyrodus_hexagonus             0001001200(0 1)
+	Mesturus_verrucosus           00111112001
+	Aminiichthys_leedsi           00?11012001
+	Palaeobalistum_orbiculatum    01110002001
+	Micropycnodon_kansasensis     0?0100?2??1
+	Paramesturus_stuehmeri        ??010??2??1
+	Valgarzaella_antiquissima     000000?2001
+
+[Contour Scales 88-102]
+	Huso_huso                     302222220000001
+	Polypterus_senegalus          000000000000000
+	Pteronisculus_cicatrosus      00000000?000000
+	Abdobalistum_thyrus           221122213111111
+	Nursallia_veronae             2322111?412???0
+	Paranursallia_gutturosum      2012????311?230
+	Pycnodus_apodus               213211114123230
+	Oropycnodus_ponsorti          213211114123330
+	Coelodus_saturnus             2?231111??????0
+	Sylvienodus_laveirensis       2022????3113330
+	Polazzodus_coronatus          102211113113230
+	Scalacurvichthys_naishi       ?0??1111?113230
+	Ocloedus_subdiscus            102233333113330
+	Tepexichthys_aranguthyorum    102111112112330
+	Iemanja_palma                 ?0?1?????1????0
+	Stemmatodus_rhombus           102143334113330
+	Proscinetes_radiatus          ?0?(2 3)22223122230
+	Proscinetes_bernardi          201311111121110
+	Proscinetes_elegans           20131111(2 3)121110
+	Neoproscinetes_penalvai       20232???2121110
+	Thiollierepycnodus_wagneri    201311111111110
+	Turboscinetes_egertoni        201(1 3)11112121110
+	Turbomesodon_relegans         201(2 3)43232113330
+	Turbomesodon_bernissartensis  ?0??4?233112230
+	Turbomesodon_praeclarus       101243232112330
+	Akromystax_tilmachiton        102132334212430
+	Stenamara_mia                 10213233211??30
+	Macromesodon_macropterus      102142222112230
+	Brembodus_ridens              10214222211???0
+	Gibbodon_cenensis             1021322221122?0
+	Eomesodon_liassicus           10?142221111??0
+	Eomesodon_hoeferi             102?3222?112230
+	Apomesodon_gibbosus           101122221112230
+	Piranhamesodon_pinnatomus     101122231112230
+	Arduafrons_prominoris         101142221112220
+	Gyrodus_hexagonus             101142221112220
+	Mesturus_verrucosus           201132221112220
+	Aminiichthys_leedsi           201132221112220
+	Palaeobalistum_orbiculatum    2012222121122?0
+	Micropycnodon_kansasensis     20????2???12220
+	Paramesturus_stuehmeri        00????????1???0
+	Valgarzaella_antiquissima     ?????????1?????
+
+[Cloaca 103-107]
+	Huso_huso                     00000
+	Polypterus_senegalus          00000
+	Pteronisculus_cicatrosus      00000
+	Abdobalistum_thyrus           ????0
+	Nursallia_veronae             4??10
+	Paranursallia_gutturosum      5???0
+	Pycnodus_apodus               54410
+	Oropycnodus_ponsorti          53321
+	Coelodus_saturnus             ????0
+	Sylvienodus_laveirensis       54310
+	Polazzodus_coronatus          54310
+	Scalacurvichthys_naishi       ???00
+	Ocloedus_subdiscus            54300
+	Tepexichthys_aranguthyorum    43400
+	Iemanja_palma                 ????0
+	Stemmatodus_rhombus           54500
+	Proscinetes_radiatus          53300
+	Proscinetes_bernardi          53300
+	Proscinetes_elegans           53300
+	Neoproscinetes_penalvai       53300
+	Thiollierepycnodus_wagneri    1??00
+	Turboscinetes_egertoni        (4 5)3(3 4)00
+	Turbomesodon_relegans         33300
+	Turbomesodon_bernissartensis  3???0
+	Turbomesodon_praeclarus       33400
+	Akromystax_tilmachiton        52300
+	Stenamara_mia                 44400
+	Macromesodon_macropterus      21100
+	Brembodus_ridens              51100
+	Gibbodon_cenensis             31100
+	Eomesodon_liassicus           4???0
+	Eomesodon_hoeferi             4??00
+	Apomesodon_gibbosus           (2 3)1100
+	Piranhamesodon_pinnatomus     31100
+	Arduafrons_prominoris         11100
+	Gyrodus_hexagonus             11100
+	Mesturus_verrucosus           10000
+	Aminiichthys_leedsi           10000
+	Palaeobalistum_orbiculatum    ????0
+	Micropycnodon_kansasensis     ?????
+	Paramesturus_stuehmeri        ?????
+	Valgarzaella_antiquissima     ???00
 ;
 END;
-
 
 
 BEGIN TREES;
 	TRANSLATE
 		1	Abdobalistum_thyrus,
 		2	Akromystax_tilmachiton,
-		3	Apomesodon_gibbosus,
-		4	Arduafrons_prominoris,
-		5	Brembodus_ridens,
-		6	Coelodus_saturnus,
-		7	Eomesodon_hoeferi,
-		8	Eomesodon_liassicus,
-		9	Gibbodon_cenensis,
-		10	Gyrodus_hexagonus,
-		11	Huso_huso,
-		12	Iemanja_palma,
-		13	Valgarzaella_antiquissima,
+		3	Aminiichthys_leedsi,
+		4	Apomesodon_gibbosus,
+		5	Arduafrons_prominoris,
+		6	Brembodus_ridens,
+		7	Coelodus_saturnus,
+		8	Eomesodon_hoeferi,
+		9	Eomesodon_liassicus,
+		10	Gibbodon_cenensis,
+		11	Gyrodus_hexagonus,
+		12	Huso_huso,
+		13	Iemanja_palma,
 		14	Macromesodon_macropterus,
-		15	Mesturus_leedsi,
-		16	Mesturus_verrucosus,
-		17	Micropycnodon_kansasensis,
-		18	Neoproscinetes_penalvai,
-		19	Nursallia_veronae,
-		20	Ocloedus_subdiscus,
-		21	Oropycnodus_ponsorti,
-		22	Palaeobalistum_orbiculatum,
-		23	Paramesturus_stuehmeri,
-		24	Paranursallia_gutturosum,
-		25	Piranhamesodon_pinnatomus,
-		26	Polazzodus_coronatus,
-		27	Polypterus_senegalus,
-		28	Proscinetes_bernardi,
-		29	Proscinetes_elegans,
-		30	Proscinetes_radiatus,
-		31	Pteronisculus_cicatrosus,
-		32	Pycnodus_apodus,
-		33	Scalacurvichthys_naishi,
-		34	Stemmatodus_rhombus,
-		35	Stenamara_mia,
-		36	Sylvienodus_laveirensis,
-		37	Tepexichthys_aranguthyorum,
-		38	Thiollierepycnodus_wagneri,
-		39	Turbomesodon_bernissartensis,
-		40	Turbomesodon_praeclarus,
-		41	Turbomesodon_relegans,
-		42	Turboscinetes_egertoni
+		15	Mesturus_verrucosus,
+		16	Micropycnodon_kansasensis,
+		17	Neoproscinetes_penalvai,
+		18	Nursallia_veronae,
+		19	Ocloedus_subdiscus,
+		20	Oropycnodus_ponsorti,
+		21	Palaeobalistum_orbiculatum,
+		22	Paramesturus_stuehmeri,
+		23	Paranursallia_gutturosum,
+		24	Piranhamesodon_pinnatomus,
+		25	Polazzodus_coronatus,
+		26	Polypterus_senegalus,
+		27	Proscinetes_bernardi,
+		28	Proscinetes_elegans,
+		29	Proscinetes_radiatus,
+		30	Pteronisculus_cicatrosus,
+		31	Pycnodus_apodus,
+		32	Scalacurvichthys_naishi,
+		33	Stemmatodus_rhombus,
+		34	Stenamara_mia,
+		35	Sylvienodus_laveirensis,
+		36	Tepexichthys_aranguthyorum,
+		37	Thiollierepycnodus_wagneri,
+		38	Turbomesodon_bernissartensis,
+		39	Turbomesodon_praeclarus,
+		40	Turbomesodon_relegans,
+		41	Turboscinetes_egertoni,
+		42	Valgarzaella_antiquissima
 	;
-	TREE tree1 = [&R] (((((((((((((((((((((((((((1:0.5083369516,24:0.09797420574):0.04981036776,19:0.1885886058):0.251551297,32:0.1632101639):0.3254257678,22:0.479707605):0.0994786107,6:0.4148068584):0.02979877621,(21:0.3499933299,(26:0.08982416018,36:0.2012746267):0.1761490956):0.1881124719):0.04384053835,(12:0.4108084803,33:0.1302758757):0.2045595575):0.137588811,2:0.5956078407):0.08729830149,34:0.2713069338):0.1059886264,20:0.115325692):0.153027038,((((18:0.1206680444,((28:0.08190758587,29:0.02499837551):0.07006684751,38:0.3865539534):0.07078505756):0.1456039563,37:0.2738872614):0.0970480877,42:0.1723002683):0.05149807249,30:0.233073931):0.159017112):0.108151376,41:0.09543143187):0.1245938525,40:0.06040781463):0.04576842115,39:0.05404036295):0.189721744,35:0.1931339822):0.3181574082,14:0.1543408949):0.07229025796,((5:0.138335091,9:0.3357916986):0.06224203029,(7:0.26592515,8:0.1221675153):0.122137199):0.1451120754):0.09199746856,(3:0.1451131646,25:0.2114613678):0.07545412104):0.3271033497,4:0.2139385357):0.08991648023,10:0.1717201452):0.1418600114,17:0.1802705377):0.1221734603,(15:0.06177791018,16:0.03297275664):0.1689084476):0.2014945687,23:0.1126818153):0.3223413688,13:0.2513953246):1.067393354,11:0.3290007417):0.09773755864,31:0.1367928545):0.06391190327,27:0.06391190327);
+	TREE tree1 = [&R] (((((((((((((((((((((((((((1:0.3470279602,(18:0.09711637811,23:0.06104697913):0.05016744811):0.1781952555,31:0.07437105275):0.1032192057,21:0.2740032346):0.06373556206,20:0.2324634689):0.03965425662,(25:0.05943061312,35:0.1364204411):0.160317565):0.009583477694,7:0.2117342506):0.03486480205,(13:0.3048598707,32:0.08453652775):0.0525193403):0.1486929932,2:0.3484357009):0.05575440675,33:0.1345499155):0.09182366402,19:0.05658692604):0.1341372129,((((17:0.09052184719,((27:0.05440157163,28:0.01643027162):0.06725162373,37:0.2875216872):0.04330971828):0.09426539671,36:0.2090260885):0.0528417621,29:0.1184424107):0.04288766721,41:0.1542697237):0.1188562644):0.06119111666,40:0.076490673):0.07826423435,39:0.04629030883):0.02810909867,38:0.04250624477):0.1218404283,34:0.1330282178):0.2184117421,14:0.1005722235):0.049398781,((6:0.09353159308,10:0.2264256869):0.05109720602,(8:0.1940112384,9:0.08594040145):0.07249548864):0.1073078996):0.05636382168,(4:0.0910407526,24:0.144745159):0.05224062738):0.2124983641,5:0.1392472775):0.07188574436,11:0.1011352779):0.04352228115,16:0.197810926):0.09692582386,(3:0.04379111658,15:0.02934028656):0.144868924):0.1427382371,22:0.05806131657):0.2144942677,42:0.1664751951):0.783626463,12:0.1999214078):0.06666432032,30:0.0781332661):0.05396966238,26:0.05396966238);
 END;

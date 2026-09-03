@@ -1,11 +1,12 @@
 #NEXUS
-[R-package APE, Tue Aug 25 18:42:43 2026]
+[R-package APE, Thu Sep  3 14:39:10 2026]
 
 BEGIN TAXA;
 	DIMENSIONS NTAX = 42;
 	TAXLABELS
 		Abdobalistum_thyrus
 		Akromystax_tilmachiton
+		Aminiichthys_leedsi
 		Apomesodon_gibbosus
 		Arduafrons_prominoris
 		Brembodus_ridens
@@ -16,9 +17,7 @@ BEGIN TAXA;
 		Gyrodus_hexagonus
 		Huso_huso
 		Iemanja_palma
-		MCSNB_VG04
 		Macromesodon_macropterus
-		Mesturus_leedsi
 		Mesturus_verrucosus
 		Micropycnodon_kansasensis
 		Neoproscinetes_penalvai
@@ -46,52 +45,53 @@ BEGIN TAXA;
 		Turbomesodon_praeclarus
 		Turbomesodon_relegans
 		Turboscinetes_egertoni
+		Valgarzaella_antiquissima
 	;
 END;
 BEGIN TREES;
 	TRANSLATE
 		1	Abdobalistum_thyrus,
 		2	Akromystax_tilmachiton,
-		3	Apomesodon_gibbosus,
-		4	Arduafrons_prominoris,
-		5	Brembodus_ridens,
-		6	Coelodus_saturnus,
-		7	Eomesodon_hoeferi,
-		8	Eomesodon_liassicus,
-		9	Gibbodon_cenensis,
-		10	Gyrodus_hexagonus,
-		11	Huso_huso,
-		12	Iemanja_palma,
-		13	MCSNB_VG04,
+		3	Aminiichthys_leedsi,
+		4	Apomesodon_gibbosus,
+		5	Arduafrons_prominoris,
+		6	Brembodus_ridens,
+		7	Coelodus_saturnus,
+		8	Eomesodon_hoeferi,
+		9	Eomesodon_liassicus,
+		10	Gibbodon_cenensis,
+		11	Gyrodus_hexagonus,
+		12	Huso_huso,
+		13	Iemanja_palma,
 		14	Macromesodon_macropterus,
-		15	Mesturus_leedsi,
-		16	Mesturus_verrucosus,
-		17	Micropycnodon_kansasensis,
-		18	Neoproscinetes_penalvai,
-		19	Nursallia_veronae,
-		20	Ocloedus_subdiscus,
-		21	Oropycnodus_ponsorti,
-		22	Palaeobalistum_orbiculatum,
-		23	Paramesturus_stuehmeri,
-		24	Paranursallia_gutturosum,
-		25	Piranhamesodon_pinnatomus,
-		26	Polazzodus_coronatus,
-		27	Polypterus_senegalus,
-		28	Proscinetes_bernardi,
-		29	Proscinetes_elegans,
-		30	Proscinetes_radiatus,
-		31	Pteronisculus_cicatrosus,
-		32	Pycnodus_apodus,
-		33	Scalacurvichthys_naishi,
-		34	Stemmatodus_rhombus,
-		35	Stenamara_mia,
-		36	Sylvienodus_laveirensis,
-		37	Tepexichthys_aranguthyorum,
-		38	Thiollierepycnodus_wagneri,
-		39	Turbomesodon_bernissartensis,
-		40	Turbomesodon_praeclarus,
-		41	Turbomesodon_relegans,
-		42	Turboscinetes_egertoni
+		15	Mesturus_verrucosus,
+		16	Micropycnodon_kansasensis,
+		17	Neoproscinetes_penalvai,
+		18	Nursallia_veronae,
+		19	Ocloedus_subdiscus,
+		20	Oropycnodus_ponsorti,
+		21	Palaeobalistum_orbiculatum,
+		22	Paramesturus_stuehmeri,
+		23	Paranursallia_gutturosum,
+		24	Piranhamesodon_pinnatomus,
+		25	Polazzodus_coronatus,
+		26	Polypterus_senegalus,
+		27	Proscinetes_bernardi,
+		28	Proscinetes_elegans,
+		29	Proscinetes_radiatus,
+		30	Pteronisculus_cicatrosus,
+		31	Pycnodus_apodus,
+		32	Scalacurvichthys_naishi,
+		33	Stemmatodus_rhombus,
+		34	Stenamara_mia,
+		35	Sylvienodus_laveirensis,
+		36	Tepexichthys_aranguthyorum,
+		37	Thiollierepycnodus_wagneri,
+		38	Turbomesodon_bernissartensis,
+		39	Turbomesodon_praeclarus,
+		40	Turbomesodon_relegans,
+		41	Turboscinetes_egertoni,
+		42	Valgarzaella_antiquissima
 	;
-	TREE * UNTITLED = [&R] ((((((((((((((((((((((((((1:0.3585022846,(19:0.09781785379,24:0.06252905012):0.04938279166):0.1641374262,32:0.100079244):0.2142189491,22:0.3135766063):0.06560487523,6:0.2452437929):0.02075537556,(21:0.2496814847,(26:0.06194527819,36:0.1377262414):0.1120162471):0.1070199119):0.04222207974,(12:0.3010558499,33:0.1012716101):0.09832824934):0.1058705583,2:0.4012323193):0.04387528776,34:0.1809285984):0.07652684837,20:0.07250936889):0.1293631246,((((18:0.08078290226,((28:0.05725507786,29:0.01646917711):0.0377949744,38:0.272157861):0.0533009261):0.1099654662,37:0.1930862917):0.06010934742,42:0.1219120041):0.03648160001,30:0.1637049217):0.09558916313):0.07510929929,41:0.07013054161):0.08257197459,40:0.04475848762):0.0288565285,39:0.04119660886):0.1251507882,35:0.135478584):0.2231960492,14:0.100845316):0.0479770056,((5:0.0908804535,9:0.2252933759):0.04904645676,(7:0.1878500965,8:0.08247568364):0.07641398305):0.09947294557):0.05519517638,(3:0.09166852325,25:0.1464512605):0.05240539208):0.2207586859,4:0.1237594975):0.08141080842,10:0.08589978228):0.1060454464,17:0.1073706535):0.07510451207,(15:0.04200657428,16:0.02110816245):0.1027892524):0.1533526939,23:0.04410306186):0.2301135984,13:0.1559525877):0.6930335366,11:0.2077009817):0.06364781955,31:0.08315331523):0.04628254926,27:0.04628254926);
+	TREE * UNTITLED = [&R] (((((((((((((((((((((((((((1:0.3470279602,(18:0.09711637811,23:0.06104697913):0.05016744811):0.1781952555,31:0.07437105275):0.1032192057,21:0.2740032346):0.06373556206,20:0.2324634689):0.03965425662,(25:0.05943061312,35:0.1364204411):0.160317565):0.009583477694,7:0.2117342506):0.03486480205,(13:0.3048598707,32:0.08453652775):0.0525193403):0.1486929932,2:0.3484357009):0.05575440675,33:0.1345499155):0.09182366402,19:0.05658692604):0.1341372129,((((17:0.09052184719,((27:0.05440157163,28:0.01643027162):0.06725162373,37:0.2875216872):0.04330971828):0.09426539671,36:0.2090260885):0.0528417621,29:0.1184424107):0.04288766721,41:0.1542697237):0.1188562644):0.06119111666,40:0.076490673):0.07826423435,39:0.04629030883):0.02810909867,38:0.04250624477):0.1218404283,34:0.1330282178):0.2184117421,14:0.1005722235):0.049398781,((6:0.09353159308,10:0.2264256869):0.05109720602,(8:0.1940112384,9:0.08594040145):0.07249548864):0.1073078996):0.05636382168,(4:0.0910407526,24:0.144745159):0.05224062738):0.2124983641,5:0.1392472775):0.07188574436,11:0.1011352779):0.04352228115,16:0.197810926):0.09692582386,(3:0.04379111658,15:0.02934028656):0.144868924):0.1427382371,22:0.05806131657):0.2144942677,42:0.1664751951):0.783626463,12:0.1999214078):0.06666432032,30:0.0781332661):0.05396966238,26:0.05396966238);
 END;
