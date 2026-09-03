@@ -1,7 +1,7 @@
 #NEXUS
 
 BEGIN DATA;
-	DIMENSIONS  NTAX=42 NCHAR=106;
+	DIMENSIONS  NTAX=42 NCHAR=107;
 	FORMAT DATATYPE = STANDARD INTERLEAVE GAP = - MISSING = ? SYMBOLS = "  0 1 2 3 4 5 6 7 8 9";
 	MATRIX
 [General Morphology 1-7]
@@ -41,12 +41,12 @@ BEGIN DATA;
 	Piranhamesodon_pinnatomus     2111101
 	Arduafrons_prominoris         21(1 2)1010
 	Gyrodus_hexagonus             2001000
-	Mesturus_verrucosus           2001000
-	Mesturus_leedsi               2001010
-	Palaeobalistum_orbiculatum    1000000
+	Mesturus_verrucosus           1001000
+	Aminiichthys_leedsi           ?001010
+	Palaeobalistum_orbiculatum    1100000
 	Micropycnodon_kansasensis     ?????0?
 	Paramesturus_stuehmeri        ????00?
-	MCSNB_VG04                    1000010
+	Valgarzaella_antiquissima     1100010
 
 [Head 8-23]
 	Huso_huso                     0000000?0--2--2(1 3)
@@ -85,12 +85,12 @@ BEGIN DATA;
 	Piranhamesodon_pinnatomus     0201010002121111
 	Arduafrons_prominoris         120?01001101111?
 	Gyrodus_hexagonus             1100010001011112
-	Mesturus_verrucosus           1200020001011111
-	Mesturus_leedsi               1201020001011111
+	Mesturus_verrucosus           1201020001011111
+	Aminiichthys_leedsi           1201020001011111
 	Palaeobalistum_orbiculatum    1210?11?12??312?
 	Micropycnodon_kansasensis     12000200?10?111?
 	Paramesturus_stuehmeri        0200020000??????
-	MCSNB_VG04                    010?0??0000???0?
+	Valgarzaella_antiquissima     010?0??0000???0?
 
 [Teeth 24-44]
 	Huso_huso                     -----0000001-00000000
@@ -129,12 +129,12 @@ BEGIN DATA;
 	Piranhamesodon_pinnatomus     100??3223?1?22323?221
 	Arduafrons_prominoris         10021312?212222??4111
 	Gyrodus_hexagonus             100212123212222243233
-	Mesturus_verrucosus           100242123212132254242
-	Mesturus_leedsi               1001?2123212232254242
+	Mesturus_verrucosus           100212123212132254241
+	Aminiichthys_leedsi           100112123212?32254242
 	Palaeobalistum_orbiculatum    ?????212?31??22234?11
 	Micropycnodon_kansasensis     1???4312341??22242332
 	Paramesturus_stuehmeri        100???12?2?22?2??????
-	MCSNB_VG04                    100??211111?232111?11
+	Valgarzaella_antiquissima     100??211111?232111?11
 
 [Axial 45-52]
 	Huso_huso                     00000000
@@ -173,12 +173,12 @@ BEGIN DATA;
 	Piranhamesodon_pinnatomus     10041101
 	Arduafrons_prominoris         10001100
 	Gyrodus_hexagonus             ?0041100
-	Mesturus_verrucosus           ?00???00
-	Mesturus_leedsi               ?00???00
+	Mesturus_verrucosus           ?00???01
+	Aminiichthys_leedsi           ?00???01
 	Palaeobalistum_orbiculatum    ??????0?
 	Micropycnodon_kansasensis     ??????0?
 	Paramesturus_stuehmeri        ??????0?
-	MCSNB_VG04                    ??????0?
+	Valgarzaella_antiquissima     ??????0?
 
 [Caudal 53-60]
 	Huso_huso                     -------0
@@ -187,26 +187,26 @@ BEGIN DATA;
 	Abdobalistum_thyrus           ?????0?0
 	Nursallia_veronae             2?2??010
 	Paranursallia_gutturosum      2?2??010
-	Pycnodus_apodus               12211110
+	Pycnodus_apodus               12212110
 	Oropycnodus_ponsorti          11112100
-	Coelodus_saturnus             ?1112001
-	Sylvienodus_laveirensis       21101000
-	Polazzodus_coronatus          11101?00
+	Coelodus_saturnus             ?1112101
+	Sylvienodus_laveirensis       21201100
+	Polazzodus_coronatus          11201?00
 	Scalacurvichthys_naishi       ??????10
-	Ocloedus_subdiscus            21102000
+	Ocloedus_subdiscus            21202000
 	Tepexichthys_aranguthyorum    21111000
-	Iemanja_palma                 1?112000
+	Iemanja_palma                 1?112100
 	Stemmatodus_rhombus           21000000
 	Proscinetes_radiatus          20201000
-	Proscinetes_bernardi          21102000
-	Proscinetes_elegans           21102000
-	Neoproscinetes_penalvai       21102000
+	Proscinetes_bernardi          21202000
+	Proscinetes_elegans           21202000
+	Neoproscinetes_penalvai       21202000
 	Thiollierepycnodus_wagneri    21102000
 	Turboscinetes_egertoni        30001000
 	Turbomesodon_relegans         30000000
 	Turbomesodon_bernissartensis  30000000
 	Turbomesodon_praeclarus       30000000
-	Akromystax_tilmachiton        21213000
+	Akromystax_tilmachiton        21313000
 	Stenamara_mia                 3????000
 	Macromesodon_macropterus      30000000
 	Brembodus_ridens              20000000
@@ -218,57 +218,57 @@ BEGIN DATA;
 	Arduafrons_prominoris         2????000
 	Gyrodus_hexagonus             1????000
 	Mesturus_verrucosus           ?????000
-	Mesturus_leedsi               ?????00?
-	Palaeobalistum_orbiculatum    ?11?2000
+	Aminiichthys_leedsi           ?????00?
+	Palaeobalistum_orbiculatum    ?11?2100
 	Micropycnodon_kansasensis     ?????00?
 	Paramesturus_stuehmeri        ?????00?
-	MCSNB_VG04                    ?????00?
+	Valgarzaella_antiquissima     ?????00?
 
-[Fins and Girdles 61-75]
-	Huso_huso                     012000210000000
-	Polypterus_senegalus          010001300300120
-	Pteronisculus_cicatrosus      021000100000000
-	Abdobalistum_thyrus           3025011540??120
-	Nursallia_veronae             3025002541??520
-	Paranursallia_gutturosum      30150025?0??520
-	Pycnodus_apodus               300401144210420
-	Oropycnodus_ponsorti          301404253210420
-	Coelodus_saturnus             31150024?211420
-	Sylvienodus_laveirensis       3122?0033310220
-	Polazzodus_coronatus          31240024?210220
-	Scalacurvichthys_naishi       302??01???00120
-	Ocloedus_subdiscus            3023102323??420
-	Tepexichthys_aranguthyorum    301?002?32?1220
-	Iemanja_palma                 3?230?2432??120
-	Stemmatodus_rhombus           302210232310120
-	Proscinetes_radiatus          30231023?2???20
-	Proscinetes_bernardi          301410(1 2)42211211
-	Proscinetes_elegans           30141?142211210
-	Neoproscinetes_penalvai       301310232211221
-	Thiollierepycnodus_wagneri    322310142211421
-	Turboscinetes_egertoni        302310233310410
-	Turbomesodon_relegans         302(2 3)12232300420
-	Turbomesodon_bernissartensis  ?12213222300120
-	Turbomesodon_praeclarus       302203222300120
-	Akromystax_tilmachiton        301404242210420
-	Stenamara_mia                 32421?122300?20
-	Macromesodon_macropterus      323(1 2)040(1 2)2300120
-	Brembodus_ridens              312214021300100
-	Gibbodon_cenensis             312001000300300
-	Eomesodon_liassicus           ?031??012300??0
-	Eomesodon_hoeferi             ?1110401?300100
-	Apomesodon_gibbosus           302203021300120
-	Piranhamesodon_pinnatomus     323204221200420
-	Arduafrons_prominoris         203201030200320
-	Gyrodus_hexagonus             3222000332??020
-	Mesturus_verrucosus           2?22012201?0120
-	Mesturus_leedsi               2?2?012?01?0120
-	Palaeobalistum_orbiculatum    302???2??111420
-	Micropycnodon_kansasensis     ??????????????0
-	Paramesturus_stuehmeri        ??????????????0
-	MCSNB_VG04                    ??????0?030?100
+[Fins and Girdles 61-76]
+	Huso_huso                     0120002100000000
+	Polypterus_senegalus          0100013003001202
+	Pteronisculus_cicatrosus      0210001000000000
+	Abdobalistum_thyrus           3025011540??1202
+	Nursallia_veronae             3025002541??5202
+	Paranursallia_gutturosum      30150025?0??5202
+	Pycnodus_apodus               3004011442104202
+	Oropycnodus_ponsorti          3014042532104202
+	Coelodus_saturnus             31150024?2114202
+	Sylvienodus_laveirensis       3122?00333102202
+	Polazzodus_coronatus          31240024?2102202
+	Scalacurvichthys_naishi       302??01???001202
+	Ocloedus_subdiscus            3023102323??4202
+	Tepexichthys_aranguthyorum    301?002?32?12202
+	Iemanja_palma                 3?230?2432??1202
+	Stemmatodus_rhombus           3022102323101202
+	Proscinetes_radiatus          30231023?2???202
+	Proscinetes_bernardi          301410(1 2)422112111
+	Proscinetes_elegans           30141?1422112101
+	Neoproscinetes_penalvai       3013102322112212
+	Thiollierepycnodus_wagneri    3223101422114212
+	Turboscinetes_egertoni        3023102333104101
+	Turbomesodon_relegans         302(2 3)122323004202
+	Turbomesodon_bernissartensis  ?122132223001202
+	Turbomesodon_praeclarus       3022032223001202
+	Akromystax_tilmachiton        3014042422104202
+	Stenamara_mia                 32421?122300?202
+	Macromesodon_macropterus      323(1 2)040(1 2)23001202
+	Brembodus_ridens              3122140213001000
+	Gibbodon_cenensis             312001000300300?
+	Eomesodon_liassicus           ?031??012300??0?
+	Eomesodon_hoeferi             ?1110401?3001000
+	Apomesodon_gibbosus           3022030213001202
+	Piranhamesodon_pinnatomus     3232042212004202
+	Arduafrons_prominoris         2032010302003202
+	Gyrodus_hexagonus             3222000332??0202
+	Mesturus_verrucosus           2?22032200?01202
+	Aminiichthys_leedsi           2???0????0?01202
+	Palaeobalistum_orbiculatum    302???2??1114202
+	Micropycnodon_kansasensis     ??????????????0?
+	Paramesturus_stuehmeri        ??????????????0?
+	Valgarzaella_antiquissima     ??????0?030?1000
 
-[Scales 76-86]
+[Scales 77-87]
 	Huso_huso                     50010002003
 	Polypterus_senegalus          00000002002
 	Pteronisculus_cicatrosus      00000000000
@@ -306,13 +306,13 @@ BEGIN DATA;
 	Arduafrons_prominoris         00110112101
 	Gyrodus_hexagonus             0001001200(0 1)
 	Mesturus_verrucosus           00111112001
-	Mesturus_leedsi               00111112001
+	Aminiichthys_leedsi           00?11012001
 	Palaeobalistum_orbiculatum    01110002001
 	Micropycnodon_kansasensis     0?0100?2??1
 	Paramesturus_stuehmeri        ??010??2??1
-	MCSNB_VG04                    000000?2001
+	Valgarzaella_antiquissima     000000?2001
 
-[Contour Scales 87-101]
+[Contour Scales 88-102]
 	Huso_huso                     302222220000001
 	Polypterus_senegalus          000000000000000
 	Pteronisculus_cicatrosus      00000000?000000
@@ -350,13 +350,13 @@ BEGIN DATA;
 	Arduafrons_prominoris         101142221112220
 	Gyrodus_hexagonus             101142221112220
 	Mesturus_verrucosus           201132221112220
-	Mesturus_leedsi               201132221112220
+	Aminiichthys_leedsi           201132221112220
 	Palaeobalistum_orbiculatum    2012222121122?0
 	Micropycnodon_kansasensis     20????2???12220
 	Paramesturus_stuehmeri        00????????1???0
-	MCSNB_VG04                    ?????????1?????
+	Valgarzaella_antiquissima     ?????????1?????
 
-[Cloaca 102-106]
+[Cloaca 103-107]
 	Huso_huso                     00000
 	Polypterus_senegalus          00000
 	Pteronisculus_cicatrosus      00000
@@ -393,11 +393,11 @@ BEGIN DATA;
 	Piranhamesodon_pinnatomus     31100
 	Arduafrons_prominoris         11100
 	Gyrodus_hexagonus             11100
-	Mesturus_verrucosus           00000
-	Mesturus_leedsi               00000
+	Mesturus_verrucosus           10000
+	Aminiichthys_leedsi           10000
 	Palaeobalistum_orbiculatum    ????0
 	Micropycnodon_kansasensis     ?????
 	Paramesturus_stuehmeri        ?????
-	MCSNB_VG04                    ???00
+	Valgarzaella_antiquissima     ???00
 ;
 END;
