@@ -1,0 +1,145 @@
+#NEXUS
+begin taxa;
+	dimensions ntax=42;
+	taxlabels
+	Abdobalistum_thyrus
+	Akromystax_tilmachiton
+	Aminiichthys_leedsi
+	Apomesodon_gibbosus
+	Arduafrons_prominoris
+	Brembodus_ridens
+	Coelodus_saturnus
+	Eomesodon_hoeferi
+	Eomesodon_liassicus
+	Gibbodon_cenensis
+	Gyrodus_hexagonus
+	Huso_huso
+	Iemanja_palma
+	Macromesodon_macropterus
+	Mesturus_verrucosus
+	Micropycnodon_kansasensis
+	Neoproscinetes_penalvai
+	Nursallia_veronae
+	Ocloedus_subdiscus
+	Oropycnodus_ponsorti
+	Palaeobalistum_orbiculatum
+	Paramesturus_stuehmeri
+	Paranursallia_gutturosum
+	Piranhamesodon_pinnatomus
+	Polazzodus_coronatus
+	Polypterus_senegalus
+	Proscinetes_bernardi
+	Proscinetes_elegans
+	Proscinetes_radiatus
+	Pteronisculus_cicatrosus
+	Pycnodus_apodus
+	Scalacurvichthys_naishi
+	Stemmatodus_rhombus
+	Stenamara_mia
+	Sylvienodus_laveirensis
+	Tepexichthys_aranguthyorum
+	Thiollierepycnodus_wagneri
+	Turbomesodon_bernissartensis
+	Turbomesodon_praeclarus
+	Turbomesodon_relegans
+	Turboscinetes_egertoni
+	Valgarzaella_antiquissima
+;
+end;
+
+begin trees;
+	tree con_50_majrule = [&U] (Polypterus_senegalus[&prob=1.0,prob_stddev=0.0,prob_range={1.0,1.0},prob(percent)="100",prob+-sd="100+-0",length_mean=0.10794068,length_median=0.1061667,length_95%HPD={4.519711E-6,0.195478},!rotate=true]:0.106167,Pteronisculus_cicatrosus[&prob=1.0,prob_stddev=0.0,prob_range={1.0,1.0},prob(percent)="100",prob+-sd="100+-0",length_mean=0.0516103043,length_median=0.04631404,length_95%HPD={1.578799E-6,0.1129585},!rotate=true]:0.046314,(Huso_huso[&prob=1.0,prob_stddev=0.0,prob_range={1.0,1.0},prob(percent)="100",prob+-sd="100+-0",length_mean=0.175118443,length_median=0.1765547,length_95%HPD={0.01084107,0.32059}]:0.176555,(((((((((((((((((((((Abdobalistum_thyrus[&prob=1.0,prob_stddev=0.0,prob_range={1.0,1.0},prob(percent)="100",prob+-sd="100+-0",length_mean=0.316945584,length_median=0.3093476,length_95%HPD={0.1589649,0.49069}]:0.309348,(Nursallia_veronae[&prob=1.0,prob_stddev=0.0,prob_range={1.0,1.0},prob(percent)="100",prob+-sd="100+-0",length_mean=0.0962811902,length_median=0.09096823,length_95%HPD={0.02076414,0.1804748}]:0.090968,Paranursallia_gutturosum[&prob=1.0,prob_stddev=0.0,prob_range={1.0,1.0},prob(percent)="100",prob+-sd="100+-0",length_mean=0.0397692458,length_median=0.03355887,length_95%HPD={1.500405E-7,0.09629819}]:0.033559)[&prob=0.608739612,prob_stddev=0.00145482634,prob_range={0.607350784,0.610061775},prob(percent)="61",prob+-sd="61+-0",length_mean=0.0804938597,length_median=0.07211049,length_95%HPD={1.383439E-4,0.1746235},!rotate=true]:0.07211)[&prob=0.928269855,prob_stddev=0.0021397099,prob_range={0.925514422,0.93071419},prob(percent)="93",prob+-sd="93+-0",length_mean=0.174762361,length_median=0.1699238,length_95%HPD={0.05077552,0.3078789}]:0.169924,Pycnodus_apodus[&prob=1.0,prob_stddev=0.0,prob_range={1.0,1.0},prob(percent)="100",prob+-sd="100+-0",length_mean=0.0718773317,length_median=0.06677213,length_95%HPD={6.370591E-8,0.1488127}]:0.066772)[&prob=0.793898049,prob_stddev=0.00488051703,prob_range={0.787698325,0.798897827},prob(percent)="79",prob+-sd="79+-0",length_mean=0.0988759,length_median=0.09340104,length_95%HPD={0.008104779,0.1960647}]:0.093401,Palaeobalistum_orbiculatum[&prob=1.0,prob_stddev=0.0,prob_range={1.0,1.0},prob(percent)="100",prob+-sd="100+-0",length_mean=0.242763396,length_median=0.2356807,length_95%HPD={0.1049768,0.3956201}]:0.235681)[&prob=0.675069997,prob_stddev=0.00451236991,prob_range={0.670903515,0.679925337},prob(percent)="68",prob+-sd="68+-0",length_mean=0.0785527308,length_median=0.07061402,length_95%HPD={2.039058E-5,0.1707864}]:0.070614,Oropycnodus_ponsorti[&prob=1.0,prob_stddev=0.0,prob_range={1.0,1.0},prob(percent)="100",prob+-sd="100+-0",length_mean=0.176255598,length_median=0.1713278,length_95%HPD={0.07717995,0.2870549}]:0.171328,Coelodus_saturnus[&prob=1.0,prob_stddev=0.0,prob_range={1.0,1.0},prob(percent)="100",prob+-sd="100+-0",length_mean=0.150347398,length_median=0.1446817,length_95%HPD={0.05473636,0.2557317}]:0.144682,(Sylvienodus_laveirensis[&prob=1.0,prob_stddev=0.0,prob_range={1.0,1.0},prob(percent)="100",prob+-sd="100+-0",length_mean=0.136394699,length_median=0.1318106,length_95%HPD={0.05241798,0.2292563}]:0.131811,Polazzodus_coronatus[&prob=1.0,prob_stddev=0.0,prob_range={1.0,1.0},prob(percent)="100",prob+-sd="100+-0",length_mean=0.0580907083,length_median=0.05346475,length_95%HPD={0.006331915,0.117403}]:0.053465)[&prob=0.986489489,prob_stddev=6.50137276E-4,prob_range={0.986045065,0.987422781},prob(percent)="99",prob+-sd="99+-0",length_mean=0.108424998,length_median=0.103454,length_95%HPD={0.02996485,0.1960868}]:0.103454,(Scalacurvichthys_naishi[&prob=1.0,prob_stddev=0.0,prob_range={1.0,1.0},prob(percent)="100",prob+-sd="100+-0",length_mean=0.0649634359,length_median=0.05975522,length_95%HPD={5.990064E-4,0.1339381}]:0.059755,Iemanja_palma[&prob=1.0,prob_stddev=0.0,prob_range={1.0,1.0},prob(percent)="100",prob+-sd="100+-0",length_mean=0.279703757,length_median=0.2710826,length_95%HPD={0.1347177,0.4419112}]:0.271083)[&prob=0.502999867,prob_stddev=0.00329294406,prob_range={0.498822275,0.506688592},prob(percent)="50",prob+-sd="50+-0",length_mean=0.0535539108,length_median=0.04740122,length_95%HPD={1.228171E-5,0.1194876}]:0.047401)[&prob=0.939358251,prob_stddev=0.00417183584,prob_range={0.936180614,0.945424648},prob(percent)="94",prob+-sd="94+-0",length_mean=0.142880911,length_median=0.1380409,length_95%HPD={0.03285486,0.262071}]:0.138041,Akromystax_tilmachiton[&prob=1.0,prob_stddev=0.0,prob_range={1.0,1.0},prob(percent)="100",prob+-sd="100+-0",length_mean=0.334774149,length_median=0.3270423,length_95%HPD={0.1769729,0.5021061}]:0.327042)[&prob=0.660004,prob_stddev=0.00335952439,prob_range={0.656370828,0.6645038},prob(percent)="66",prob+-sd="66+-0",length_mean=0.0831754986,length_median=0.07453049,length_95%HPD={6.263779E-7,0.1831604}]:0.07453,Stemmatodus_rhombus[&prob=1.0,prob_stddev=0.0,prob_range={1.0,1.0},prob(percent)="100",prob+-sd="100+-0",length_mean=0.115375385,length_median=0.1103194,length_95%HPD={0.03386037,0.2053648}]:0.110319)[&prob=0.924303364,prob_stddev=0.00189333091,prob_range={0.922536776,0.926092174},prob(percent)="92",prob+-sd="92+-0",length_mean=0.0981553387,length_median=0.09371228,length_95%HPD={0.01769626,0.1868871}]:0.093712,Ocloedus_subdiscus[&prob=1.0,prob_stddev=0.0,prob_range={1.0,1.0},prob(percent)="100",prob+-sd="100+-0",length_mean=0.0510921897,length_median=0.04506746,length_95%HPD={1.490096E-5,0.1158839}]:0.045067)[&prob=0.956901915,prob_stddev=0.00267009502,prob_range={0.953113195,0.959024043},prob(percent)="96",prob+-sd="96+-0",length_mean=0.120765977,length_median=0.1158732,length_95%HPD={0.03343757,0.2193532}]:0.115873,(Tepexichthys_aranguthyorum[&prob=1.0,prob_stddev=0.0,prob_range={1.0,1.0},prob(percent)="100",prob+-sd="100+-0",length_mean=0.183765682,length_median=0.1785784,length_95%HPD={0.07960074,0.2980116}]:0.178578,Proscinetes_radiatus[&prob=1.0,prob_stddev=0.0,prob_range={1.0,1.0},prob(percent)="100",prob+-sd="100+-0",length_mean=0.0963187116,length_median=0.0920504,length_95%HPD={0.01319738,0.1812644}]:0.09205,(((Proscinetes_bernardi[&prob=1.0,prob_stddev=0.0,prob_range={1.0,1.0},prob(percent)="100",prob+-sd="100+-0",length_mean=0.0514818876,length_median=0.04816767,length_95%HPD={0.00947338,0.09962243}]:0.048168,Proscinetes_elegans[&prob=1.0,prob_stddev=0.0,prob_range={1.0,1.0},prob(percent)="100",prob+-sd="100+-0",length_mean=0.0159568922,length_median=0.01180755,length_95%HPD={4.106242E-8,0.04494669}]:0.011808)[&prob=0.85690636,prob_stddev=0.00151772822,prob_range={0.855339763,0.858984045},prob(percent)="86",prob+-sd="86+-0",length_mean=0.0589490179,length_median=0.05437293,length_95%HPD={0.001601924,0.1223671}]:0.054373,Thiollierepycnodus_wagneri[&prob=1.0,prob_stddev=0.0,prob_range={1.0,1.0},prob(percent)="100",prob+-sd="100+-0",length_mean=0.268727455,length_median=0.2633709,length_95%HPD={0.144431,0.4050453}]:0.263371)[&prob=0.684269588,prob_stddev=0.00204286357,prob_range={0.682503,0.686902804},prob(percent)="68",prob+-sd="68+-0",length_mean=0.0614169799,length_median=0.05635867,length_95%HPD={0.004497615,0.1266822}]:0.056359,Neoproscinetes_penalvai[&prob=1.0,prob_stddev=0.0,prob_range={1.0,1.0},prob(percent)="100",prob+-sd="100+-0",length_mean=0.0731247726,length_median=0.06868603,length_95%HPD={0.01335298,0.1380844}]:0.068686)[&prob=0.78456513,prob_stddev=0.00270052767,prob_range={0.781520821,0.78707613},prob(percent)="78",prob+-sd="78+-0",length_mean=0.0792295244,length_median=0.07411028,length_95%HPD={0.009435884,0.1569123}]:0.07411,Turboscinetes_egertoni[&prob=1.0,prob_stddev=0.0,prob_range={1.0,1.0},prob(percent)="100",prob+-sd="100+-0",length_mean=0.0944278137,length_median=0.08882601,length_95%HPD={0.01826246,0.1824796}]:0.088826)[&prob=0.807464113,prob_stddev=0.00165589205,prob_range={0.805786409,0.809430692},prob(percent)="81",prob+-sd="81+-0",length_mean=0.115896669,length_median=0.1117285,length_95%HPD={0.02009453,0.2190007}]:0.111729)[&prob=0.664070486,prob_stddev=0.00273537892,prob_range={0.660326208,0.666859251},prob(percent)="66",prob+-sd="66+-0",length_mean=0.0896755729,length_median=0.08428839,length_95%HPD={0.008290078,0.1803085}]:0.084288,Turbomesodon_relegans[&prob=1.0,prob_stddev=0.0,prob_range={1.0,1.0},prob(percent)="100",prob+-sd="100+-0",length_mean=0.0511236067,length_median=0.04673554,length_95%HPD={0.0028588,0.1049236}]:0.046736)[&prob=0.904148705,prob_stddev=0.00340159129,prob_range={0.89938225,0.906848585},prob(percent)="90",prob+-sd="90+-0",length_mean=0.0826922003,length_median=0.07836098,length_95%HPD={0.01950436,0.1525616}]:0.078361,Turbomesodon_praeclarus[&prob=1.0,prob_stddev=0.0,prob_range={1.0,1.0},prob(percent)="100",prob+-sd="100+-0",length_mean=0.0357966469,length_median=0.03226799,length_95%HPD={0.00264622,0.07574844}]:0.032268)[&prob=0.724523355,prob_stddev=0.00533624339,prob_range={0.716812586,0.728278743},prob(percent)="72",prob+-sd="72+-1",length_mean=0.0370167605,length_median=0.03190468,length_95%HPD={9.723539E-7,0.08669163}]:0.031905,Turbomesodon_bernissartensis[&prob=1.0,prob_stddev=0.0,prob_range={1.0,1.0},prob(percent)="100",prob+-sd="100+-0",length_mean=0.0311529524,length_median=0.02693062,length_95%HPD={4.556428E-7,0.0720357}]:0.026931)[&prob=0.933969601,prob_stddev=0.00329801353,prob_range={0.930314208,0.937202791},prob(percent)="93",prob+-sd="93+-0",length_mean=0.13045446,length_median=0.125005,length_95%HPD={0.02243253,0.248967}]:0.125005,Stenamara_mia[&prob=1.0,prob_stddev=0.0,prob_range={1.0,1.0},prob(percent)="100",prob+-sd="100+-0",length_mean=0.119864516,length_median=0.1130983,length_95%HPD={0.0234741,0.227519}]:0.113098)[&prob=0.999188925,prob_stddev=0.00159265961,prob_range={0.996800142,1.0},prob(percent)="100",prob+-sd="100+-0",length_mean=0.20464576,length_median=0.1968865,length_95%HPD={0.08024797,0.3438496},!hilight={25,0.0,#b2dae4}]:0.196887,Macromesodon_macropterus[&prob=1.0,prob_stddev=0.0,prob_range={1.0,1.0},prob(percent)="100",prob+-sd="100+-0",length_mean=0.098485766,length_median=0.09382805,length_95%HPD={0.02708489,0.1775298}]:0.093828)[&prob=0.651971024,prob_stddev=0.00372274769,prob_range={0.647482334,0.656459713},prob(percent)="65",prob+-sd="65+-0",length_mean=0.0636366534,length_median=0.05829567,length_95%HPD={2.390047E-7,0.1359467}]:0.058296,(Brembodus_ridens[&prob=1.0,prob_stddev=0.0,prob_range={1.0,1.0},prob(percent)="100",prob+-sd="100+-0",length_mean=0.0875222136,length_median=0.08282903,length_95%HPD={0.01333181,0.1650649}]:0.082829,Gibbodon_cenensis[&prob=1.0,prob_stddev=0.0,prob_range={1.0,1.0},prob(percent)="100",prob+-sd="100+-0",length_mean=0.203943796,length_median=0.1986526,length_95%HPD={0.08526011,0.336578}]:0.198653,(Eomesodon_liassicus[&prob=1.0,prob_stddev=0.0,prob_range={1.0,1.0},prob(percent)="100",prob+-sd="100+-0",length_mean=0.0811576101,length_median=0.07378847,length_95%HPD={0.002493278,0.1710152}]:0.073788,Eomesodon_hoeferi[&prob=1.0,prob_stddev=0.0,prob_range={1.0,1.0},prob(percent)="100",prob+-sd="100+-0",length_mean=0.155419703,length_median=0.1496409,length_95%HPD={0.06090106,0.2653651}]:0.149641)[&prob=0.701968801,prob_stddev=0.00289797616,prob_range={0.698635616,0.705213102},prob(percent)="70",prob+-sd="70+-0",length_mean=0.0848171138,length_median=0.07941249,length_95%HPD={0.01402141,0.1679402}]:0.079412)[&prob=0.919936892,prob_stddev=0.00796603626,prob_range={0.912626106,0.927914315},prob(percent)="92",prob+-sd="92+-1",length_mean=0.0973535022,length_median=0.09290645,length_95%HPD={0.02044673,0.1804967},!hilight={4,1.318224709999999,#029456}]:0.092906)[&prob=0.793520288,prob_stddev=0.00703230985,prob_range={0.784231812,0.801253278},prob(percent)="79",prob+-sd="79+-1",length_mean=0.0592207454,length_median=0.05355987,length_95%HPD={9.370903E-5,0.1270778}]:0.05356,(Apomesodon_gibbosus[&prob=1.0,prob_stddev=0.0,prob_range={1.0,1.0},prob(percent)="100",prob+-sd="100+-0",length_mean=0.0821979924,length_median=0.07801669,length_95%HPD={0.01945542,0.1524608}]:0.078017,Piranhamesodon_pinnatomus[&prob=1.0,prob_stddev=0.0,prob_range={1.0,1.0},prob(percent)="100",prob+-sd="100+-0",length_mean=0.143215454,length_median=0.1386667,length_95%HPD={0.05782419,0.2359779}]:0.138667)[&prob=0.748633394,prob_stddev=0.00168256473,prob_range={0.747255678,0.750988845},prob(percent)="75",prob+-sd="75+-0",length_mean=0.0555316103,length_median=0.05008062,length_95%HPD={5.788461E-4,0.118598}]:0.050081)[&prob=0.98955602,prob_stddev=0.00742140445,prob_range={0.981200836,0.99657793},prob(percent)="99",prob+-sd="99+-1",length_mean=0.20801169,length_median=0.2021173,length_95%HPD={0.09290143,0.3321261}]:0.202117,Arduafrons_prominoris[&prob=1.0,prob_stddev=0.0,prob_range={1.0,1.0},prob(percent)="100",prob+-sd="100+-0",length_mean=0.12809828,length_median=0.1227286,length_95%HPD={0.03906458,0.2297455}]:0.122729)[&prob=0.729600907,prob_stddev=0.00394302226,prob_range={0.724012266,0.732856317},prob(percent)="73",prob+-sd="73+-0",length_mean=0.0746663508,length_median=0.06834001,length_95%HPD={2.704517E-6,0.159466}]:0.06834,Gyrodus_hexagonus[&prob=1.0,prob_stddev=0.0,prob_range={1.0,1.0},prob(percent)="100",prob+-sd="100+-0",length_mean=0.0810747384,length_median=0.0758821,length_95%HPD={0.009669226,0.1580914}]:0.075882)[&prob=0.525465535,prob_stddev=0.00231513558,prob_range={0.522821208,0.528465402},prob(percent)="53",prob+-sd="53+-0",length_mean=0.0765458205,length_median=0.06915962,length_95%HPD={1.840319E-4,0.1636543}]:0.06916,Micropycnodon_kansasensis[&prob=1.0,prob_stddev=0.0,prob_range={1.0,1.0},prob(percent)="100",prob+-sd="100+-0",length_mean=0.15384899,length_median=0.144896,length_95%HPD={0.03419751,0.2893613}]:0.144896)[&prob=0.836740589,prob_stddev=0.00622982395,prob_range={0.83027421,0.843295854},prob(percent)="84",prob+-sd="84+-1",length_mean=0.110020928,length_median=0.1027273,length_95%HPD={3.322784E-5,0.2257944}]:0.102727,(Mesturus_verrucosus[&prob=1.0,prob_stddev=0.0,prob_range={1.0,1.0},prob(percent)="100",prob+-sd="100+-0",length_mean=0.0291687659,length_median=0.02419137,length_95%HPD={3.031887E-6,0.07231802}]:0.024191,Aminiichthys_leedsi[&prob=1.0,prob_stddev=0.0,prob_range={1.0,1.0},prob(percent)="100",prob+-sd="100+-0",length_mean=0.0436985883,length_median=0.03959639,length_95%HPD={0.003741337,0.09179297}]:0.039596)[&prob=0.988333852,prob_stddev=9.26921186E-4,prob_range={0.987467224,0.98920048},prob(percent)="99",prob+-sd="99+-0",length_mean=0.131291786,length_median=0.1243842,length_95%HPD={0.02256687,0.2545378},!hilight={2,1.972108059999999,#d8226c}]:0.124384)[&prob=0.930758633,prob_stddev=0.00577649531,prob_range={0.925203324,0.937869428},prob(percent)="93",prob+-sd="93+-1",length_mean=0.150205569,length_median=0.1365007,length_95%HPD={0.0100377,0.3152122}]:0.136501,Paramesturus_stuehmeri[&prob=1.0,prob_stddev=0.0,prob_range={1.0,1.0},prob(percent)="100",prob+-sd="100+-0",length_mean=0.03828173,length_median=0.02570039,length_95%HPD={4.184661E-7,0.1185293}]:0.0257)[&prob=0.887627217,prob_stddev=0.00515283552,prob_range={0.880627528,0.89182703},prob(percent)="89",prob+-sd="89+-1",length_mean=0.24165214,length_median=0.224482,length_95%HPD={9.038243E-6,0.5027886}]:0.224482,Valgarzaella_antiquissima[&prob=1.0,prob_stddev=0.0,prob_range={1.0,1.0},prob(percent)="100",prob+-sd="100+-0",length_mean=0.15278316,length_median=0.1322946,length_95%HPD={1.082105E-7,0.3623642}]:0.132295)[&prob=1.0,prob_stddev=0.0,prob_range={1.0,1.0},prob(percent)="100",prob+-sd="100+-0",length_mean=0.781905823,length_median=0.7585205,length_95%HPD={0.3989615,1.208248}]:0.758521)[&prob=0.589107151,prob_stddev=0.0018307924,prob_range={0.587307231,0.590684858},prob(percent)="59",prob+-sd="59+-0",length_mean=0.11316067,length_median=0.104668,length_95%HPD={9.0264E-7,0.244926},!rotate=true]:0.104668);
+end;
+
+begin figtree;
+	set appearance.backgroundColorAttribute="Default";
+	set appearance.backgroundColour=#ffffff;
+	set appearance.branchColorAttribute="User selection";
+	set appearance.branchColorGradient=false;
+	set appearance.branchLineWidth=3.0;
+	set appearance.branchMinLineWidth=0.0;
+	set appearance.branchWidthAttribute="Fixed";
+	set appearance.foregroundColour=#000000;
+	set appearance.hilightingGradient=false;
+	set appearance.selectionColour=#2d3680;
+	set branchLabels.colorAttribute="User selection";
+	set branchLabels.displayAttribute="Branch times";
+	set branchLabels.fontName="sansserif";
+	set branchLabels.fontSize=8;
+	set branchLabels.fontStyle=0;
+	set branchLabels.isShown=false;
+	set branchLabels.significantDigits=4;
+	set colour.scheme.prob="prob:InterpolatingContinuous{{true,false,0.5,1.0},#-137435,#-14577268,#-12320428}";
+	set layout.expansion=0;
+	set layout.layoutType="RECTILINEAR";
+	set layout.zoom=0;
+	set legend.attribute="prob";
+	set legend.fontSize=10.0;
+	set legend.isShown=true;
+	set legend.significantDigits=4;
+	set nodeBars.barWidth=4.0;
+	set nodeBars.displayAttribute=null;
+	set nodeBars.isShown=false;
+	set nodeLabels.colorAttribute="User selection";
+	set nodeLabels.displayAttribute="prob";
+	set nodeLabels.fontName="sansserif";
+	set nodeLabels.fontSize=10;
+	set nodeLabels.fontStyle=0;
+	set nodeLabels.isShown=true;
+	set nodeLabels.significantDigits=2;
+	set nodeShapeExternal.colourAttribute=null;
+	set nodeShapeExternal.isShown=true;
+	set nodeShapeExternal.minSize=10.0;
+	set nodeShapeExternal.scaleType=Width;
+	set nodeShapeExternal.shapeType=Circle;
+	set nodeShapeExternal.size=4.0;
+	set nodeShapeExternal.sizeAttribute=null;
+	set nodeShapeInternal.colourAttribute="prob";
+	set nodeShapeInternal.isShown=true;
+	set nodeShapeInternal.minSize=10.0;
+	set nodeShapeInternal.scaleType=Width;
+	set nodeShapeInternal.shapeType=Circle;
+	set nodeShapeInternal.size=12.0;
+	set nodeShapeInternal.sizeAttribute=null;
+	set polarLayout.alignTipLabels=false;
+	set polarLayout.angularRange=0;
+	set polarLayout.rootAngle=0;
+	set polarLayout.rootLength=100;
+	set polarLayout.showRoot=true;
+	set radialLayout.spread=0.0;
+	set rectilinearLayout.alignTipLabels=true;
+	set rectilinearLayout.curvature=0;
+	set rectilinearLayout.rootLength=100;
+	set scale.offsetAge=0.0;
+	set scale.rootAge=1.0;
+	set scale.scaleFactor=1.0;
+	set scale.scaleRoot=false;
+	set scaleAxis.automaticScale=true;
+	set scaleAxis.fontSize=8.0;
+	set scaleAxis.isShown=false;
+	set scaleAxis.lineWidth=1.0;
+	set scaleAxis.majorTicks=1.0;
+	set scaleAxis.minorTicks=0.5;
+	set scaleAxis.origin=0.0;
+	set scaleAxis.reverseAxis=false;
+	set scaleAxis.showGrid=true;
+	set scaleBar.automaticScale=false;
+	set scaleBar.fontSize=10.0;
+	set scaleBar.isShown=true;
+	set scaleBar.lineWidth=3.0;
+	set scaleBar.scaleRange=0.5;
+	set tipLabels.colorAttribute="User selection";
+	set tipLabels.displayAttribute="Names";
+	set tipLabels.fontName="Adwaita Sans";
+	set tipLabels.fontSize=12;
+	set tipLabels.fontStyle=2;
+	set tipLabels.isShown=true;
+	set tipLabels.significantDigits=4;
+	set trees.order=false;
+	set trees.orderType="increasing";
+	set trees.rooting=true;
+	set trees.rootingType="User Selection";
+	set trees.transform=false;
+	set trees.transformType="cladogram";
+end;
+
