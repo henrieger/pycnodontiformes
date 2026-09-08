@@ -45,7 +45,7 @@ calibrate
   Piranhamesodon_pinnatomus = uniform(145.06, 152.21)   [Kolbl-Ebert et al., 2018]
   Polazzodus_coronatus = uniform(83.6, 89.8)  [Poyato-Ariza, 2010; Dalla Vecchia and Cau, 2011]
   [Polypterus_senegalus = fixed(0)]   [living taxon]
-  Proscinetes_bernardi = uniform(100.5, 152.21)   [Bauza Rullan and Gomez Pallerola, 1982; Poyato-Ariza and Wenz, 2002; Ebert et al., 2015]
+  Proscinetes_bernardi = uniform(145.06, 152.21)   [Poyato-Ariza and Wenz, 2002; Ebert et al., 2015]
   Proscinetes_elegans = uniform(145.06, 149.2)  [Poyato-Ariza and Wenz, 2002; Ebert et al., 2015]
   Proscinetes_radiatus = uniform(119.57, 125.77)  [du Pauw, 1902]
   Pteronisculus_cicatrosus = uniform(250.8, 251.1)  [White, 1933; Lehman, 1952; Uyeno, 1978]
