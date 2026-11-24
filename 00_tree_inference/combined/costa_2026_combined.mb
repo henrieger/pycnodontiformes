@@ -1,5 +1,5 @@
 begin mrbayes;
-	log start filename = costa_et_al.log;
+	log start filename = costa_2026_combined.log;
 	execute costa_2026_plus_mesturidae.nex;
 	outgroup Polypterus_senegalus;
 	set autoclose=yes nowarn=yes;
