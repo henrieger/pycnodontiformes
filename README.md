@@ -1,5 +1,7 @@
 # Revisiting phylogenetic relationships of Pycnodontiformes: New insights from Bayesian inference
 
+[![DOI](https://zenodo.org/badge/1327770565.svg)](https://doi.org/10.5281/zenodo.24516340)
+
 Vítor P. G. Costa, [Henrique L. Rieger](https://github.com/henrieger), Tito Aureliano, Aline M. Ghilardi, [Gustavo A. Ballen](https://github.com/gaballench)
 
 ---
@@ -8,7 +10,7 @@ This repository contains scripts, data and results used in the [paper](<>) for B
 
 Many files in the repository are outputs from software and are presented as to provide verifiable and reproducible results for this work, but a cleanup of these is recommended for each step. Each directory will therefore have a `clean.sh` that erases all generated files for new analyses to be run, maintaining only data and scripts. Use with caution.
 
-Some packages are required to run this project, such as [MrBayes](https://nbisweden.github.io/MrBayes/download.html), [Phyx](https://github.com/FePhyFoFum/phyx), [R (ape)](https://cran.r-project.org/web/packages/ape/index.html), [TreeAnnotator](https://www.beast2.org/), [FigTree](https://tree.bio.ed.ac.uk/software/figtree/) and [Inkscape](https://inkscape.org/release/inkscape-1.4.4/). You can download them directly through the links provided our through official repositories. For users of Anaconda or similar, the file `environment.yml` exports a conda environment with all packages installed, with the exception of the GUI tools (FigTree and Inkscape). 
+Some packages are required to run this project, such as [MrBayes](https://nbisweden.github.io/MrBayes/download.html), [Phyx](https://github.com/FePhyFoFum/phyx), [R (ape)](https://cran.r-project.org/web/packages/ape/index.html), [TreeAnnotator](https://www.beast2.org/), [FigTree](https://tree.bio.ed.ac.uk/software/figtree/) and [Inkscape](https://inkscape.org/release/inkscape-1.4.4/). You can download them directly through the links provided our through official repositories. For users of Anaconda or similar, the file `environment.yml` exports a conda environment with all packages installed, with the exception of the GUI tools (FigTree and Inkscape).
 
 ## Bayesian phylogenetic tree inference
 
